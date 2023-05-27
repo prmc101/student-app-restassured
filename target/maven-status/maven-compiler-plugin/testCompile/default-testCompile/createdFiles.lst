@@ -1,0 +1,17 @@
+com\studentapp\specificationexample\ResponseSpecificationExample.class
+com\studentapp\assertionexample\SoftAssertExample.class
+com\studentapp\assertionexample\AssertionExampleDemo.class
+com\studentapp\jsonassert\JsonAssertExample.class
+com\studentapp\specificationexample\RequestSpecificationExample.class
+com\studentapp\studentinfo\StudentDeleteTest.class
+com\studentapp\studentinfo\StudentPostTest.class
+com\studentapp\myfirsttest\MyFirstTest.class
+com\studentapp\extractingresponsedata\SearchJsonPathExample.class
+com\studentapp\studentinfo\StudentPatchTest.class
+com\studentapp\studentinfo\StudentGetTest.class
+com\studentapp\studentinfo\StudentCRUDTest.class
+com\studentapp\checkresponsetime\VerifyingResponseTime.class
+com\studentapp\studentinfo\StudentPutTest.class
+com\studentapp\testbase\TestBase.class
+com\studentapp\loggingrequestresponse\LoggingRequestDetails.class
+com\studentapp\loggingrequestresponse\LoggingResponseDetails.class

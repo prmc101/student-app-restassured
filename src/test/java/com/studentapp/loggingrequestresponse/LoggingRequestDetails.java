@@ -3,6 +3,8 @@ package com.studentapp.loggingrequestresponse;
 import com.studentapp.testbase.TestBase;
 import org.junit.Test;
 
+import static io.restassured.RestAssured.given;
+
 /**
  * Created by Jay
  */
@@ -13,6 +15,11 @@ public class LoggingRequestDetails extends TestBase {
     @Test
     public void test001() {
         System.out.println("---------------Printing Request Headers------------------");
+        given().log().all()
+                .when()
+                .get("/list")
+                .then().log().ifValidationFails()
+                .statusCode(201);
     }
 
     /**

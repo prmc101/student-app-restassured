@@ -1,5 +1,4 @@
 [
-
     {
         "id": 2,
         "firstName": "Murphy",
@@ -21,7 +20,7 @@
                 "Accounting",
                 "Statistics"
             ]
-        },
+    },
     {
         "id": 3,
         "firstName": "Reece",
@@ -1210,6 +1209,25 @@
             "Machine Element Design",
             "Engineering Analysis I",
             "Calculus & Linear Algebra I "
+        ]
+    },
+    {
+        "id": 101,
+        "firstName": "Jay",
+        "lastName": "Harper",
+        "email": "prime@gmail.com",
+        "programme": "Financial Analysis",
+        "courses": []
+    },
+    {
+        "id": 102,
+        "firstName": "Prime",
+        "lastName": "Testing",
+        "email": "19036Prime@gmail.com",
+        "programme": "Automation Testing",
+        "courses": [
+            "Java",
+            "Rest Assured"
         ]
     }
 ]
